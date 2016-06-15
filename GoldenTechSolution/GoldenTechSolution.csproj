@@ -1,0 +1,950 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{78E8624D-C8DD-4A51-960F-367E19F1DBAA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GoldenTechSolution</RootNamespace>
+    <AssemblyName>GoldenTechSolution</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addCustomersID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addCustomersID.Designer.cs">
+      <DependentUpon>addCustomersID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddMoreItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMoreItems.Designer.cs">
+      <DependentUpon>AddMoreItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllDetailsViewDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllDetailsViewDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AllEnterpriseDetailsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllEnterpriseDetailsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AllEnterpriseDetailsViewDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllEnterpriseDetailsViewDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillBalaceReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillBalaceReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BIllBalanceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BIllBalanceReport.Designer.cs">
+      <DependentUpon>BIllBalanceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BillReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company.Designer.cs">
+      <DependentUpon>Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactnumberDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContactnumberDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerCity.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerCity.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomerCityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerCityForm.Designer.cs">
+      <DependentUpon>CustomerCityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerDetails.designer.cs">
+      <DependentUpon>CustomerDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerIDDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerIDDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerType.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerType.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomerTypeReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerTypeReport.Designer.cs">
+      <DependentUpon>CustomerTypeReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoard.Designer.cs">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnterpriseDetailsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EnterpriseDetailsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EnterpriseGridView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnterpriseGridView.Designer.cs">
+      <DependentUpon>EnterpriseGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnterpriseGridViewDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EnterpriseGridViewDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginProgress.Designer.cs">
+      <DependentUpon>LoginProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetalTypeDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MetalTypeDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NewParty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewParty.designer.cs">
+      <DependentUpon>NewParty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderAndItemUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderAndItemUpdate.Designer.cs">
+      <DependentUpon>OrderAndItemUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderIDDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrderIDDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OrderItemDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrderItemDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="popupCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popupCustomer.Designer.cs">
+      <DependentUpon>popupCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popupStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popupStock.Designer.cs">
+      <DependentUpon>popupStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintingBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintingBill.Designer.cs">
+      <DependentUpon>PrintingBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetPassword.Designer.cs">
+      <DependentUpon>ResetPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaleBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaleBill.designer.cs">
+      <DependentUpon>SaleBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SMSapplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMSapplication.Designer.cs">
+      <DependentUpon>SMSapplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockCategoryReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StockCategoryReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StockCategoryReportResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockCategoryReportResult.Designer.cs">
+      <DependentUpon>StockCategoryReportResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockDetails.designer.cs">
+      <DependentUpon>StockDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockIN.Designer.cs">
+      <DependentUpon>StockIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users.Designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs" />
+    <Compile Include="EmployeeDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeDetails.designer.cs">
+      <DependentUpon>EmployeeDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenTechDataDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GoldenTechDataDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master.Designer.cs">
+      <DependentUpon>Master.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stocks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stocks.Designer.cs">
+      <DependentUpon>Stocks.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addCustomersID.resx">
+      <DependentUpon>addCustomersID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddMoreItems.resx">
+      <DependentUpon>AddMoreItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillBalaceReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BillBalaceReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BIllBalanceReport.resx">
+      <DependentUpon>BIllBalanceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BillReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BillReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company.resx">
+      <DependentUpon>Company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerCity.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CustomerCity.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerCityForm.resx">
+      <DependentUpon>CustomerCityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerDetails.resx">
+      <DependentUpon>CustomerDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerType.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CustomerType.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerTypeReport.resx">
+      <DependentUpon>CustomerTypeReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashBoard.resx">
+      <DependentUpon>DashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnterpriseGridView.resx">
+      <DependentUpon>EnterpriseGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginProgress.resx">
+      <DependentUpon>LoginProgress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewParty.resx">
+      <DependentUpon>NewParty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderAndItemUpdate.resx">
+      <DependentUpon>OrderAndItemUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popupCustomer.resx">
+      <DependentUpon>popupCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popupStock.resx">
+      <DependentUpon>popupStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintingBill.resx">
+      <DependentUpon>PrintingBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetPassword.resx">
+      <DependentUpon>ResetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaleBill.resx">
+      <DependentUpon>SaleBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMSapplication.resx">
+      <DependentUpon>SMSapplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockCategoryReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StockCategoryReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockCategoryReportResult.resx">
+      <DependentUpon>StockCategoryReportResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockDetails.resx">
+      <DependentUpon>StockDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockIN.resx">
+      <DependentUpon>StockIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users.resx">
+      <DependentUpon>Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeDetails.resx">
+      <DependentUpon>EmployeeDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master.resx">
+      <DependentUpon>Master.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Stocks.resx">
+      <DependentUpon>Stocks.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AllDetailsViewDataSet.xsc">
+      <DependentUpon>AllDetailsViewDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AllDetailsViewDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AllDetailsViewDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AllDetailsViewDataSet.xss">
+      <DependentUpon>AllDetailsViewDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AllEnterpriseDetailsDataSet.xsc">
+      <DependentUpon>AllEnterpriseDetailsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AllEnterpriseDetailsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AllEnterpriseDetailsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AllEnterpriseDetailsDataSet.xss">
+      <DependentUpon>AllEnterpriseDetailsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AllEnterpriseDetailsViewDataSet.xsc">
+      <DependentUpon>AllEnterpriseDetailsViewDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AllEnterpriseDetailsViewDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AllEnterpriseDetailsViewDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AllEnterpriseDetailsViewDataSet.xss">
+      <DependentUpon>AllEnterpriseDetailsViewDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ContactnumberDataSet.xsc">
+      <DependentUpon>ContactnumberDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ContactnumberDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ContactnumberDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ContactnumberDataSet.xss">
+      <DependentUpon>ContactnumberDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerIDDataSet.xsc">
+      <DependentUpon>CustomerIDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerIDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerIDDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CustomerIDDataSet.xss">
+      <DependentUpon>CustomerIDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EnterpriseDetailsDataSet.xsc">
+      <DependentUpon>EnterpriseDetailsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EnterpriseDetailsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EnterpriseDetailsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EnterpriseDetailsDataSet.xss">
+      <DependentUpon>EnterpriseDetailsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EnterpriseGridViewDataSet.xsc">
+      <DependentUpon>EnterpriseGridViewDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EnterpriseGridViewDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EnterpriseGridViewDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EnterpriseGridViewDataSet.xss">
+      <DependentUpon>EnterpriseGridViewDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet.xsc">
+      <DependentUpon>GoldenTechDataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet.xss">
+      <DependentUpon>GoldenTechDataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet1.xsc">
+      <DependentUpon>GoldenTechDataDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet1.xss">
+      <DependentUpon>GoldenTechDataDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet10.xsc">
+      <DependentUpon>GoldenTechDataDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet10.xss">
+      <DependentUpon>GoldenTechDataDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet11.xsc">
+      <DependentUpon>GoldenTechDataDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet11.xss">
+      <DependentUpon>GoldenTechDataDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet12.xsc">
+      <DependentUpon>GoldenTechDataDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet12.xss">
+      <DependentUpon>GoldenTechDataDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet13.xsc">
+      <DependentUpon>GoldenTechDataDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet13.xss">
+      <DependentUpon>GoldenTechDataDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet14.xsc">
+      <DependentUpon>GoldenTechDataDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet14.xss">
+      <DependentUpon>GoldenTechDataDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet15.xsc">
+      <DependentUpon>GoldenTechDataDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet15.xss">
+      <DependentUpon>GoldenTechDataDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet16.xsc">
+      <DependentUpon>GoldenTechDataDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet16.xss">
+      <DependentUpon>GoldenTechDataDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet17.xsc">
+      <DependentUpon>GoldenTechDataDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet17.xss">
+      <DependentUpon>GoldenTechDataDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet18.xsc">
+      <DependentUpon>GoldenTechDataDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet18.xss">
+      <DependentUpon>GoldenTechDataDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet19.xsc">
+      <DependentUpon>GoldenTechDataDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet19.xss">
+      <DependentUpon>GoldenTechDataDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet2.xsc">
+      <DependentUpon>GoldenTechDataDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet2.xss">
+      <DependentUpon>GoldenTechDataDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet20.xsc">
+      <DependentUpon>GoldenTechDataDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet20.xss">
+      <DependentUpon>GoldenTechDataDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet21.xsc">
+      <DependentUpon>GoldenTechDataDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet21.xss">
+      <DependentUpon>GoldenTechDataDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet3.xsc">
+      <DependentUpon>GoldenTechDataDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet3.xss">
+      <DependentUpon>GoldenTechDataDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet4.xsc">
+      <DependentUpon>GoldenTechDataDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet4.xss">
+      <DependentUpon>GoldenTechDataDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet5.xsc">
+      <DependentUpon>GoldenTechDataDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet5.xss">
+      <DependentUpon>GoldenTechDataDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet6.xsc">
+      <DependentUpon>GoldenTechDataDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet6.xss">
+      <DependentUpon>GoldenTechDataDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet7.xsc">
+      <DependentUpon>GoldenTechDataDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet7.xss">
+      <DependentUpon>GoldenTechDataDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet8.xsc">
+      <DependentUpon>GoldenTechDataDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet8.xss">
+      <DependentUpon>GoldenTechDataDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet9.xsc">
+      <DependentUpon>GoldenTechDataDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="GoldenTechDataDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GoldenTechDataDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GoldenTechDataDataSet9.xss">
+      <DependentUpon>GoldenTechDataDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="MetalTypeDataSet.xsc">
+      <DependentUpon>MetalTypeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MetalTypeDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MetalTypeDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MetalTypeDataSet.xss">
+      <DependentUpon>MetalTypeDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OrderIDDataSet.xsc">
+      <DependentUpon>OrderIDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OrderIDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrderIDDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OrderIDDataSet.xss">
+      <DependentUpon>OrderIDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OrderItemDetails.xsc">
+      <DependentUpon>OrderItemDetails.xsd</DependentUpon>
+    </None>
+    <None Include="OrderItemDetails.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrderItemDetails.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OrderItemDetails.xss">
+      <DependentUpon>OrderItemDetails.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JScript1.js" />
+    <None Include="Resources\User-Administrator-Red-icon.png" />
+    <None Include="Resources\252231_1002029915278_1941483569_s.jpg" />
+    <None Include="Resources\Koala.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

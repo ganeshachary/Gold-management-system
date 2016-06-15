@@ -1,0 +1,42 @@
+c:\users\ganesh\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\bin\Debug\GoldenTechSolution.exe
+c:\users\ganesh\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\bin\Debug\GoldenTechSolution.pdb
+c:\users\ganesh\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.Properties.Resources.resources
+c:\users\ganesh\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.csproj.GenerateResource.Cache
+c:\users\ganesh\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.exe
+c:\users\ganesh\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.pdb
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.Master.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.Login.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.LoginForm.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.csprojResolveAssemblyReference.cache
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.CustomerDetails.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\bin\Debug\GoldenTechSolution.exe.config
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.Stocks.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.Company.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.EmployeeDetails.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.ForgotPassword.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.Users.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.ResetPassword.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.Order.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.AddMoreItems.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.OrderAndItemUpdate.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.SMSapplication.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTech.NewParty.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTech.SaleBill.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTech.StockDetails.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.ChangePassword.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.DashBoard.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.Bill.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.StockIN.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.addCustomersID.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.popupCustomer.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.EnterpriseGridView.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.popupStock.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.PrintingBill.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.CustomerTypeReport.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.CustomerCityForm.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.StockCategoryReportResult.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.BIllBalanceReport.resources
+C:\Users\GANESH\documents\visual studio 2010\Projects\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.LoginProgress.resources
+C:\Users\OnesTech\Downloads\goldentech\GoldenTechSolution\GoldenTechSolution\bin\Debug\GoldenTechSolution.exe.config
+C:\Users\OnesTech\Downloads\goldentech\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.exe
+C:\Users\OnesTech\Downloads\goldentech\GoldenTechSolution\GoldenTechSolution\obj\x86\Debug\GoldenTechSolution.pdb

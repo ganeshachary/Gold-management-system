@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EnterpriseGridViewDataSet" targetNamespace="http://tempuri.org/EnterpriseGridViewDataSet.xsd" xmlns:mstns="http://tempuri.org/EnterpriseGridViewDataSet.xsd" xmlns="http://tempuri.org/EnterpriseGridViewDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="GoldenTechDataConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="GoldenTechDataConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.GoldenTechSolution.Properties.Settings.GlobalReference.Default.GoldenTechDataConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AllEnterpriseDetailsViewTableAdapter" GeneratorDataComponentClassName="AllEnterpriseDetailsViewTableAdapter" Name="AllEnterpriseDetailsView" UserDataComponentName="AllEnterpriseDetailsViewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="GoldenTechDataConnectionString (Settings)" DbObjectName="GoldenTechData.dbo.AllEnterpriseDetailsView" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ent_id, ent_name, ent_contact_no, ent_alt_contact_no, ent_email_id, ent_decsription, pincode, city, state, landmark, street, room_no, supplier, customer, bank, shop FROM dbo.AllEnterpriseDetailsView</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EnterpriseGridViewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="EnterpriseGridViewDataSet" msprop:Generator_UserDSName="EnterpriseGridViewDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AllEnterpriseDetailsView" msprop:Generator_TableClassName="AllEnterpriseDetailsViewDataTable" msprop:Generator_TableVarName="tableAllEnterpriseDetailsView" msprop:Generator_TablePropName="AllEnterpriseDetailsView" msprop:Generator_RowDeletingName="AllEnterpriseDetailsViewRowDeleting" msprop:Generator_RowChangingName="AllEnterpriseDetailsViewRowChanging" msprop:Generator_RowEvHandlerName="AllEnterpriseDetailsViewRowChangeEventHandler" msprop:Generator_RowDeletedName="AllEnterpriseDetailsViewRowDeleted" msprop:Generator_UserTableName="AllEnterpriseDetailsView" msprop:Generator_RowChangedName="AllEnterpriseDetailsViewRowChanged" msprop:Generator_RowEvArgName="AllEnterpriseDetailsViewRowChangeEvent" msprop:Generator_RowClassName="AllEnterpriseDetailsViewRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
